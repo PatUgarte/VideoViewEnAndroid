@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="#D8D8D8">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/miVideoView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="60dp"
+        android:text="PLAY"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:background="#00BCD4"
+        android:id="@+id/unBoton"/>
+
+
+
+</LinearLayout>
